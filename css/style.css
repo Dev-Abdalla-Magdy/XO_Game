@@ -8,10 +8,12 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background: url(../files/1.jpg);
+    background-size: cover;
 }
 
 span {
-    color: #f3fb01;
+    color: #ffdf42;
 }
 
 
@@ -36,12 +38,12 @@ span {
     width: 365px;
     height: 420px;
     text-align: center;
-    background-color: #ababab;
+    background: linear-gradient(#1500bb,#150050,#26004f,#150050,#26004f);
     border-radius: 5px;
 }
 
 .app .container .head {
-    background-color: #ababab;
+    background: linear-gradient(#1500bb,#150050,#26004f,#150050,#26004f);
     padding: 20px;
     border-radius: 5px;
     transition: 0.5s;
@@ -53,13 +55,13 @@ span {
 }
 
 .app .container .head p {
-    color: #01fe21;
+    color: #9a0076;
     font-weight: 800;
     font-size: 32px;
 }
 
 .app .container .head p span:first-child {
-    color: #01fe21;
+    color: #9a0076;
 }
 
 .app .container .head p .last {
@@ -78,7 +80,7 @@ span {
 .app .container .body .box {
     width: 100px;
     height: 100px;
-    background-color: #0fe;
+    background-color: #1500bb;
     float: left;
     text-align: center;
     color: #fff;
@@ -93,6 +95,6 @@ span {
 }
 
 .app .container .body .box:hover {
-    background-color: #01fe21;
+    background-color: #9a0076;
     cursor: pointer;
 }
